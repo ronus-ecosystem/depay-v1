@@ -1,0 +1,9 @@
+artifacts
+cache
+node_modules
+.env
+package-lock.json
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
