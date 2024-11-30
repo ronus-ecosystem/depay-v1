@@ -175,8 +175,8 @@ contract DePayERC20 {
     function get_required_amount(
         uint256 usd_amount
     ) public view returns (uint256) {
-        uint256 eth_price = get_price();
-        return (usd_amount * 10 ** 18) / eth_price; // Convert USD to native currency
+        uint256 usd_price = get_price();
+        return (usd_amount * 10 ** 18) / usd_price; // Convert USD to native currency
     }
 
     /**
