@@ -61,7 +61,7 @@ contract DePayERC20 {
     /**
      * @dev Event emitted when the fee percentage is modified.
      */
-    event FeeModified(uint256 newFee);
+    event FeeModified(uint256 new_fee_percent);
 
     /**
      * @dev Constructor to initialize the contract.
